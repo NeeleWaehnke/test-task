@@ -55,6 +55,7 @@
   width: 1950px;
   gap: 250px;
   position: relative;
+  left: -180px;
 }
 
 .multicolumn-list__item:only-child {
@@ -128,6 +129,7 @@
   .multicolumn-list__item,
   .grid--4-col-desktop .multicolumn-list__item {
     padding-bottom: 0;
+    flex-grow: 0;
   }
 
   .background-none .grid--2-col-tablet .multicolumn-list__item {
