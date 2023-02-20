@@ -2108,10 +2108,6 @@ input[type='checkbox'] {
   margin: 0;
 }
 
-.quantity__input[type='number'] {
-  -moz-appearance: textfield;
-}
-
 .quantity__rules {
   margin-top: 1.2rem;
   position: relative;
