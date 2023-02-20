@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -52,16 +45,15 @@
           "settings": {
           }
         },
-        "b0eb2daf-6ef5-4d96-a1ea-e1e6af4dbfeb": {
+        "5c91f45f-be89-4c98-801a-ef7211f028ec": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.kategorie.value }}",
+            "text": "Apple Watch Armband",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "price",
@@ -69,7 +61,7 @@
         "variant_picker",
         "buy_buttons",
         "description",
-        "b0eb2daf-6ef5-4d96-a1ea-e1e6af4dbfeb"
+        "5c91f45f-be89-4c98-801a-ef7211f028ec"
       ],
       "settings": {
         "enable_sticky_info": true,
