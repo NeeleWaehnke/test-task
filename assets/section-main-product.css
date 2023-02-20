@@ -58,7 +58,6 @@
 
   .product--large:not(.product--no-media) .product__info-wrapper {
     padding: 0 0 0 4rem;
-    max-width: 35%;
     width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
@@ -405,7 +404,12 @@ a.product__text {
 
 @media screen and (min-width: 750px) {
   .product__info-container {
-    max-width: 60rem;
+    height: 275px;
+    width: 475px;
+    border: 1px solid #d5d5d5;
+    position: relative;
+    top: 287px;
+    left: 1051px;
   }
 
   .product__info-container .price--on-sale .price-item--regular {
