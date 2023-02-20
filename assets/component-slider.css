@@ -9,8 +9,8 @@ slider-component {
     )
   );
   position: relative;
-  height: 480px;
-  width: 480px;
+  height: 500px;
+  width: 500px;
   display: block;
 }
 
