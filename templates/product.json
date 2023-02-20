@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "5c91f45f-be89-4c98-801a-ef7211f028ec": {
+          "type": "text",
+          "settings": {
+            "text": "Apple Watch Armband",
+            "text_style": "body"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -44,24 +51,17 @@
           "type": "description",
           "settings": {
           }
-        },
-        "5c91f45f-be89-4c98-801a-ef7211f028ec": {
-          "type": "text",
-          "settings": {
-            "text": "Apple Watch Armband",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "title",
+        "5c91f45f-be89-4c98-801a-ef7211f028ec",
         "caption",
         "price",
         "080332d8-0a2d-4b8e-93e5-5f6e4fff4083",
         "variant_picker",
         "buy_buttons",
-        "description",
-        "5c91f45f-be89-4c98-801a-ef7211f028ec"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
