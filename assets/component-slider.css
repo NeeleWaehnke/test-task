@@ -11,6 +11,7 @@ slider-component {
   position: relative;
   height: 480px;
   width: 480px;
+  display: block;
 }
 
 slider-component.slider-component-full-width {
