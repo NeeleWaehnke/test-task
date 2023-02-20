@@ -9,7 +9,8 @@ slider-component {
     )
   );
   position: relative;
-
+  height: 560px;
+  width: 560px;
   display: block;
 }
 

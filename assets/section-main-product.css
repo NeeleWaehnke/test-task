@@ -1076,7 +1076,7 @@ a.product__text {
 /* adjust display of thumbnails*/
 .thumbnail-list {
   flex-wrap: wrap;
-  grid-gap: 1rem;
+  grid-gap: 7.5px;
   flex-direction: column;
 }
 
@@ -1148,8 +1148,8 @@ a.product__text {
     align-items: center;
     position: absolute;
     left: 220px;
-    top: 300px;
-    width: 500px;
+    top: 210px;
+    width: 105px;
     height: 460px;
   }
 
