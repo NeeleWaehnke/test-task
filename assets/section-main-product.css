@@ -353,6 +353,7 @@ a.product__text {
 
 .product__text.caption-with-letter-spacing {
   text-transform: uppercase;
+  padding: 28px;
 }
 
 .product__title {
@@ -388,7 +389,6 @@ a.product__text {
 
 .product .price__container {
   margin-bottom: 0.5rem;
-  padding: 28px;
 }
 
 .product .price dl {
