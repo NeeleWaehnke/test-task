@@ -501,6 +501,7 @@ a.product__text {
 .product-form__buttons {
   max-width: 44rem;
   padding-left: 28px;
+  padding-bottom: 25px;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -1357,6 +1358,8 @@ a.product__text {
   align-items: center;
   gap: 0.5rem;
   padding-left: 28px;
+  position: relative;
+  bottom: 30px;
 }
 
 .product--no-media .product__inventory {
