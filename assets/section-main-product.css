@@ -1493,6 +1493,7 @@ a.product__text {
   .product-media-container.media-fit-cover {
     display: flex;
     align-self: stretch;
+    margin: 0 20px;
   }
 
   .product-media-container.media-fit-cover .media {
