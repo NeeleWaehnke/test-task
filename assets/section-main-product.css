@@ -1362,6 +1362,7 @@ a.product__text {
   padding-left: 28px;
   position: relative;
   bottom: 30px;
+  color: #25a525;
 }
 
 .product--no-media .product__inventory {
