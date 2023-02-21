@@ -52,8 +52,8 @@
 
 @media screen and (min-width: 990px) {
   .product--large:not(.product--no-media) .product__media-wrapper {
-    width: 475px;
-    height: 275px;
+    max-width: 65%;
+    width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--large:not(.product--no-media) .product__info-wrapper {
@@ -410,6 +410,7 @@ a.product__text {
     position: relative;
     top: 287px;
     left: 1051px;
+    display: block;
   }
 
   .product__info-container .price--on-sale .price-item--regular {
