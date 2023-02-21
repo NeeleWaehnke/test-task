@@ -51,14 +51,8 @@
 }
 
 @media screen and (min-width: 990px) {
-  .product--large:not(.product--no-media) .product__media-wrapper {
-    max-width: 65%;
-    width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
-  }
-
   .product--large:not(.product--no-media) .product__info-wrapper {
     padding: 0 0 0 4rem;
-    max-width: 35%;
     width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
@@ -291,6 +285,11 @@ fieldset.product-form__input .form__label {
 
 .product-form__submit {
   margin-bottom: 1rem;
+  height: 52px;
+  width: 424px;
+  background-color: #1f47ff;
+  border: none;
+  border-radius: 3px;
 }
 
 .no-js .product-form__submit.button--secondary {
@@ -343,6 +342,7 @@ fieldset.product-form__input .form__label {
 
 .product__text {
   margin-bottom: 0;
+  padding-left: 28px;
 }
 
 a.product__text {
@@ -358,10 +358,13 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+  padding-left: 28px;
+  padding-top: 18px;
 }
 
 .product__title > * {
   margin: 0;
+  font-size: 25px;
 }
 
 .product__title > a {
@@ -405,7 +408,14 @@ a.product__text {
 
 @media screen and (min-width: 750px) {
   .product__info-container {
-    max-width: 60rem;
+    height: 275px;
+    width: 475px;
+    position: relative;
+    display: block;
+    left: -50px;
+    box-shadow: 0px 3px 20px #00000029;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
   }
 
   .product__info-container .price--on-sale .price-item--regular {
@@ -437,6 +447,9 @@ a.product__text {
 
 .product__tax {
   margin-top: -1.4rem;
+  position: relative;
+  top: -26px;
+  left: 185px;
 }
 
 .product--no-media noscript .product-form__input,
@@ -487,6 +500,10 @@ a.product__text {
 
 .product-form__buttons {
   max-width: 44rem;
+  padding-left: 28px;
+
+  position: relative;
+  bottom: 35px;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -1342,6 +1359,11 @@ a.product__text {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding-left: 28px;
+  position: relative;
+  bottom: 30px;
+  color: #25a525;
+  font-weight: medium;
 }
 
 .product--no-media .product__inventory {
