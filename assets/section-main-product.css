@@ -290,7 +290,6 @@ fieldset.product-form__input .form__label {
   background-color: #1f47ff;
   border: none;
   border-radius: 3px;
-  padding-left: 28px;
 }
 
 .no-js .product-form__submit.button--secondary {
@@ -498,6 +497,7 @@ a.product__text {
 
 .product-form__buttons {
   max-width: 44rem;
+  padding-left: 28px;
 }
 
 .product--no-media .product__info-container > modal-opener {
