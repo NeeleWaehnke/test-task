@@ -82,6 +82,11 @@
         </span>
       </span>
     </small>
+    {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+      <div class="product__tax caption rte">
+        {%- if shop.taxes_included -%}
+          {{ 'products.product.include_taxes' | t }}
+        {%- endif -%}
   </div>
   {%- if show_badges -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
