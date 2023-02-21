@@ -359,7 +359,7 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
-  padding: 28px;
+  padding-left: 28px;
 }
 
 .product__title > * {
