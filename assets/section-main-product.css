@@ -342,7 +342,7 @@ fieldset.product-form__input .form__label {
 
 .product__text {
   margin-bottom: 0;
-  padding: 28px;
+  padding-left: 28px;
 }
 
 a.product__text {
