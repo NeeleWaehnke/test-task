@@ -448,8 +448,8 @@ a.product__text {
 .product__tax {
   margin-top: -1.4rem;
   position: relative;
-  top: -10px;
-  left: 300px;
+  top: -26px;
+  left: 290px;
 }
 
 .product--no-media noscript .product-form__input,
