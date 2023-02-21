@@ -353,13 +353,13 @@ a.product__text {
 
 .product__text.caption-with-letter-spacing {
   text-transform: uppercase;
-  padding: 28px;
 }
 
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
   padding-left: 28px;
+  padding-top: 18px;
 }
 
 .product__title > * {
