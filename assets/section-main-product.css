@@ -436,6 +436,7 @@ a.product__text {
 .product--no-media .product__sku,
 .product--no-media shopify-payment-terms {
   text-align: center;
+  padding: 28px;
 }
 
 .product--no-media .product__media-wrapper,
