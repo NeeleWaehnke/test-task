@@ -1363,6 +1363,7 @@ a.product__text {
   position: relative;
   bottom: 30px;
   color: #25a525;
+  font-weight: medium;
 }
 
 .product--no-media .product__inventory {
