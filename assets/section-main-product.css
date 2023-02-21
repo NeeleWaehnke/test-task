@@ -342,6 +342,7 @@ fieldset.product-form__input .form__label {
 
 .product__text {
   margin-bottom: 0;
+  padding: 28px;
 }
 
 a.product__text {
@@ -387,6 +388,7 @@ a.product__text {
 
 .product .price__container {
   margin-bottom: 0.5rem;
+  padding: 28px;
 }
 
 .product .price dl {
@@ -436,7 +438,6 @@ a.product__text {
 .product--no-media .product__sku,
 .product--no-media shopify-payment-terms {
   text-align: center;
-  padding: 28px;
 }
 
 .product--no-media .product__media-wrapper,
