@@ -449,7 +449,7 @@ a.product__text {
   margin-top: -1.4rem;
   position: relative;
   top: -26px;
-  left: 290px;
+  left: 250px;
 }
 
 .product--no-media noscript .product-form__input,
@@ -503,7 +503,7 @@ a.product__text {
   padding-left: 28px;
 
   position: relative;
-  bottom: 25px;
+  bottom: 35px;
 }
 
 .product--no-media .product__info-container > modal-opener {
