@@ -15,6 +15,17 @@
   padding-left: 0;
 }
 
+@media screen and (max-width: 749px) {
+  .product__media-wrapper {
+    height: 350px;
+    width: 350px;
+  }
+  .product__column-sticky {
+    height: 350px;
+    width: 350px;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .product__column-sticky {
     top: 3rem;
@@ -292,6 +303,11 @@ fieldset.product-form__input .form__label {
   border-radius: 3px;
 }
 
+@media screen and (max-width: 749px) {
+  .product-form__submit {
+    width: 324px;
+  }
+}
 .no-js .product-form__submit.button--secondary {
   --color-button: var(--color-base-accent-1);
   --color-button-text: var(--color-base-solid-button-labels);
@@ -406,6 +422,17 @@ a.product__text {
   display: none;
 }
 
+@media screen and (max-width: 750px) {
+  .product__info-container {
+    height: 275px;
+    width: 350px;
+    display: block;
+    box-shadow: 0px 3px 20px #00000029;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .product__info-container {
     height: 275px;
@@ -504,6 +531,12 @@ a.product__text {
 
   position: relative;
   bottom: 35px;
+}
+@media screen and (max-width: 749px) {
+  .product-form__buttons {
+    width: 324px;
+    padding-left: 14px;
+  }
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -1467,13 +1500,13 @@ a.product__text {
 .product-media-container.constrain-height {
   /* arbitrary offset value based on average theme spacing and header height */
   --viewport-offset: 400px;
-  --constrained-min-height: 300px;
+  --constrained-min-height: 350px;
   --constrained-height: max(
     var(--constrained-min-height),
     calc(100vh - var(--viewport-offset))
   );
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .product-media-container.constrain-height.media-fit-contain {
@@ -1493,6 +1526,8 @@ a.product__text {
   .product-media-container.media-fit-cover {
     display: flex;
     align-self: stretch;
+    height: 350px;
+    width: 350px;
   }
 
   .product-media-container.media-fit-cover .media {

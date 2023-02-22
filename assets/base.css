@@ -1153,7 +1153,8 @@ summary::-webkit-details-marker {
 @media screen and (max-width: 749px) {
   .grid--peek.slider--mobile {
     margin: 0;
-    width: 100%;
+    width: 350px;
+    height: 350px;
   }
 
   .grid--peek.slider--mobile .grid__item {
@@ -1162,11 +1163,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--peek .grid__item {
-    min-width: 35%;
-  }
-
-  .grid--peek.slider .grid__item:first-of-type {
-    margin-left: 1.5rem;
+    min-width: 350px;
   }
 
   /* Fix to show some space at the end of our sliders in all browsers */

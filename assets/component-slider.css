@@ -21,6 +21,12 @@ slider-component.slider-component-full-width {
 @media screen and (max-width: 749px) {
   slider-component.page-width {
     padding: 0 1.5rem;
+    height: 350px;
+    width: 350px;
+    display: block;
+  }
+  .slider-counter {
+    display: none;
   }
 }
 
@@ -77,6 +83,7 @@ slider-component.slider-component-full-width {
       var(--focus-outline-padding),
       var(--shadow-padding-bottom)
     );
+    margin-left: 20px;
   }
 
   .slider.slider--mobile.contains-card--standard
@@ -298,7 +305,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter {
-  display: flex;
+  display: none;
   justify-content: center;
   min-width: 4.4rem;
 }
