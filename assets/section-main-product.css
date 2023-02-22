@@ -532,6 +532,12 @@ a.product__text {
   position: relative;
   bottom: 35px;
 }
+@media screen and (max-width: 749px) {
+  .product-form__buttons {
+    width: 324px;
+    padding-left: 14px;
+  }
+}
 
 .product--no-media .product__info-container > modal-opener {
   display: block;
