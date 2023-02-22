@@ -62,6 +62,7 @@
   .multicolumn-list {
     display: block;
     margin-left: 220px;
+    height: 400px;
   }
 
   .multicolumn-list__item {
