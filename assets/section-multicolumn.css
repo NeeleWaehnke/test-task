@@ -58,6 +58,21 @@
   left: -180px;
 }
 
+@media screen and (max-width: 749px) {
+  .multicolumn-list {
+    display: block;
+    margin-left: 220px;
+  }
+
+  .multicolumn-list__item {
+    gap: 10px;
+  }
+  .multicolumn-card__image-wrapper {
+    width: 48px;
+    height: 48px;
+  }
+}
+
 .multicolumn-list__item:only-child {
   max-width: 72rem;
 }
