@@ -1509,6 +1509,8 @@ a.product__text {
   .product-media-container.media-fit-cover {
     display: flex;
     align-self: stretch;
+    height: 350px;
+    width: 350px;
   }
 
   .product-media-container.media-fit-cover .media {
