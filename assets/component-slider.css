@@ -25,6 +25,9 @@ slider-component.slider-component-full-width {
     width: 350px;
     display: block;
   }
+  .slider-counter {
+    display: hidden;
+  }
 }
 
 @media screen and (min-width: 749px) and (max-width: 990px) {
