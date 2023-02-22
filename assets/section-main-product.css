@@ -292,6 +292,11 @@ fieldset.product-form__input .form__label {
   border-radius: 3px;
 }
 
+@media screen and (max-width: 749px) {
+  .product-form__submit {
+    width: 324px;
+  }
+}
 .no-js .product-form__submit.button--secondary {
   --color-button: var(--color-base-accent-1);
   --color-button-text: var(--color-base-solid-button-labels);
@@ -410,9 +415,7 @@ a.product__text {
   .product__info-container {
     height: 275px;
     width: 350px;
-
     display: block;
-
     box-shadow: 0px 3px 20px #00000029;
     border: 1px solid #d5d5d5;
     border-radius: 5px;
