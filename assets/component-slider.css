@@ -21,6 +21,9 @@ slider-component.slider-component-full-width {
 @media screen and (max-width: 749px) {
   slider-component.page-width {
     padding: 0 1.5rem;
+    height: 350px;
+    width: 350px;
+    display: block;
   }
 }
 
