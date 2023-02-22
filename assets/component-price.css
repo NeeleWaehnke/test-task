@@ -34,7 +34,7 @@
   margin: 0;
 }
 .price-item--sale {
-  color: #1f47ff;
+  color: #1f47ff !important;
 }
 
 @media screen and (min-width: 750px) {
